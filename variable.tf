@@ -18,3 +18,13 @@ variable "default_tag" {
       project = "ecs_sm_demo"
   }
 }
+
+variable "public_subnet_count" {
+   type = number
+   default = 2
+}
+
+variable "private_subnet_count" {
+   type = number
+   default = 2
+}
